@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "79d31f05-d124-4d02-965b-3b3d7fd8b0ef",
+		"name": "weather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24277357"
+	},
+	"item": [
+		{
+			"name": "hanoi",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://api.openweathermap.org/geo/1.0/direct?q=Ho chi minh,&limit=5&appid=11520b139958e9e7c73df61dffb923b3",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"geo",
+						"1.0",
+						"direct"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Ho chi minh,"
+						},
+						{
+							"key": "limit",
+							"value": "5"
+						},
+						{
+							"key": "appid",
+							"value": "11520b139958e9e7c73df61dffb923b3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hochiminh",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://api.openweathermap.org/geo/1.0/direct?q=Ho chi minh,&limit=5&appid=11520b139958e9e7c73df61dffb923b3",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"geo",
+						"1.0",
+						"direct"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Ho chi minh,"
+						},
+						{
+							"key": "limit",
+							"value": "5"
+						},
+						{
+							"key": "appid",
+							"value": "11520b139958e9e7c73df61dffb923b3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
